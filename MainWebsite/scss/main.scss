@@ -1,7 +1,8 @@
 $primary-color: #444;
 $secondary-color: #333;
+$third-color: #fff;
 
 body{
-    background: primary-color;
+    background: $primary-color;
     color: #ffff;
 }
