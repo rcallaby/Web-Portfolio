@@ -2,12 +2,24 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
   color: #ffff;
   height: 100%;
   margin: 0;
   font-family: 'Seqoe-UI', Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5; }
+  body#bg-image {
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+    background-size: cover; }
+    body#bg-image:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: rgba(68, 68, 68, 0.9); }
 
 h1, h2, h3 {
   margin: 0;
@@ -32,8 +44,7 @@ header {
   color: #eece1a; }
 
 main {
-  padding: 4rem;
-  height: 100%; }
+  padding: 4rem; }
   main .icons {
     margin-top: 1rem; }
     main .icons a {
