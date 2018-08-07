@@ -1,4 +1,14 @@
-//Select DOM Items
+// Make sure sw are supported
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker
+        .register('sw_cached_pages.js')
+        .then(reg => console.log('Service Worker: Registered (Pages)'))
+        .catch(err => console.log(`Service Worker: Error: ${err}`));
+    });
+  }
+
+  //Select DOM Items
 const menuBtn = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
 const menuNav = document.querySelector('.menu-nav');
