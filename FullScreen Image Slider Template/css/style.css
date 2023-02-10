@@ -97,27 +97,27 @@ body {
 /* Backgorund Images */
  
 .slide:first-child {
-  background: url('https://source.unsplash.com/RyRpq9SUwAU/1600x900') no-repeat
+  background: url('../images/img1.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(2) {
-  background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat
+  background: url('../images/img2.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(3) {
-  background: url('https://source.unsplash.com/TMOeGZw9NY4/1600x900') no-repeat
+  background: url('../images/img3.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(4) {
-  background: url('https://source.unsplash.com/yXpA_eCbtzI/1600x900') no-repeat
+  background: url('../images/img4.jpg') no-repeat
     center top/cover;
 }
 .slide:nth-child(5) {
-  background: url('https://source.unsplash.com/ULmaQh9Gvbg/1600x900') no-repeat
+  background: url('../images/img5.jpg') no-repeat
     center top/cover;
 } 
 .slide:nth-child(6)  {
-  background: url('https://source.unsplash.com/ggZuL3BTSJU/1600x900') no-repeat
+  background: url('../images/img6.jpg') no-repeat
     center center/cover;
 }
 
